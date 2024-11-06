@@ -1,0 +1,130 @@
+:root{
+    --color_01:#A9907E;
+    --color_02:#F3DEBA;
+    --color_03:#ABC4AA;
+    --color_04:#675D50;
+    --color_05:#000;
+    --color_06:#fff;
+}
+
+.logo{
+    width: 46px;
+    border-radius: 50%;
+}
+
+
+.bg-main{
+    background-color: var(--color_02);
+}
+
+.fonte{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.list-unstyled a i {
+    color: var(--color_05)
+}
+
+.btn-primary{
+    background-color: var(--color_03);
+    border-color: var(--color_03);
+}
+.btn-primary:hover{
+    background-color: var(--color_03);
+    border-color: var(--color_06);
+}
+
+.bg-footer{
+    background-color: var(--color_01);
+}
+
+
+.header-servicos{
+    background-image: url(../img/header-servicos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height:50vh;
+    padding-top: 10vh;
+}
+
+.fonte-cor{
+    color: var(--color_03);
+}
+
+
+.card-border{
+    border: 1px solid var(--color_03);
+}
+
+.breadcrumb-cor{
+    color: var(--color_05);
+    text-decoration: none;
+}
+
+.linha{
+    border-top: 1px solid var(--color_03);
+}
+
+.linha-h1{
+    border-bottom: 3px solid var(--color_03);
+    width: 35%;
+    padding-top: 10px;
+}
+
+.linha-vertical{
+    width: 2px;
+    height: 330px;
+    background-color: var(--color_03);
+    margin: 0 50%;
+}
+
+.header-contato{
+    background-image: url(../img/header-contato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height: 50vh;
+    padding-top: 10vh;
+}
+
+.header-empresa{
+    background-image: url(../img/header-empresa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    min-height:50vh;
+    padding-top: 15vh;
+}
+
+.header-meio{
+    padding-top: 10vh;
+}
+
+.header-meio-servicos{
+    padding-top: 5vh;
+}
+
+.linha-h1-white{
+    border-bottom: 3px solid var(--color_06);
+    width: 35%;
+    margin: 0 auto;
+}
+.linha-h1-white-empresa{
+    border-bottom: 3px solid var(--color_06);
+    width: 35%;
+    margin: 0 auto;
+}
+
+.linha-h1-white-contato{
+    border-bottom: 3px solid var(--color_06);
+    width: 25%;
+    margin: 0 auto;
+}
+
+
+.bg-contato{
+    background-image: url(../img/cafe.jpg);
+    background-repeat: no-repeat;
+}
