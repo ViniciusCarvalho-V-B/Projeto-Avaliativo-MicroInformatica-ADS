@@ -24,7 +24,7 @@ if (alertTrigger !== null) {
     let estado = document.getElementById('estado').value.trim();
     
     if (nome && email && whatsapp && message && estado) {
-      appendAlert('Sua mensagem foi enviada com sucesso! Obrigado por entrar em contato conosco!', 'success');
+      appendAlert('Sua mensagem foi enviada com Sucesso! Obrigado por entrar em contato conosco!', 'success');
     } else {
       appendAlert('Por favor, preencha todos os campos obrigatórios.', 'danger');
     }
